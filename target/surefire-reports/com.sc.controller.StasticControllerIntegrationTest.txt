@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.sc.controller.StasticControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.163 s <<< FAILURE! - in com.sc.controller.StasticControllerIntegrationTest
+postCustomerShouldReturnEmptyInCaseOfNoMatch  Time elapsed: 0.161 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at com.sc.controller.StasticControllerIntegrationTest.postCustomerShouldReturnEmptyInCaseOfNoMatch(StasticControllerIntegrationTest.java:44)
+

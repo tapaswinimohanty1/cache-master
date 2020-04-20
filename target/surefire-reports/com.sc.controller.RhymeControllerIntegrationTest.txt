@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.sc.controller.RhymeControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.763 s <<< FAILURE! - in com.sc.controller.RhymeControllerIntegrationTest
+postShouldReturnForValidMatch  Time elapsed: 0.381 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+  <["shooting"]>
+to contain exactly (and in same order):
+  <[["shooting"]]>
+but some elements were not found:
+  <[["shooting"]]>
+and others were not expected:
+  <["shooting"]>
+
+	at com.sc.controller.RhymeControllerIntegrationTest.postShouldReturnForValidMatch(RhymeControllerIntegrationTest.java:67)
+
